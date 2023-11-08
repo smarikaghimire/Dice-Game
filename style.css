@@ -1,0 +1,80 @@
+body{
+ 
+    background-image: url('https://img.freepik.com/free-photo/still-life-objects-with-role-playing-game-sheet_23-2149352336.jpg?size=626&ext=jpg.avif');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+min-height: 100vh;
+
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 90px;
+    font-family: cursive;
+    color: #5C4033;
+}
+
+   
+
+p{
+    text-align: center;
+   
+    font-size: 30px;
+    font-family: cursive;
+    color: #5C4033;
+}
+
+
+
+.dice {
+    text-align: center;
+    display: flex;/* Use flexbox to arrange children horizontally */
+    justify-content: center; /* Center the content horizontally */
+}
+
+.player {
+    text-align: center;
+    margin: 10px; /* Add spacing between player sections */
+}
+/* Media query for smaller screens (e.g., tablets and smartphones) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px; /* Adjust font size for smaller screens */
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .player {
+        margin: 5px; /* Adjust spacing between player sections for smaller screens */
+    }
+}
+
+/* Additional styling if needed */
+.player p {
+    font-size: 30px;
+    font-family: cursive;
+    color: #5C4033;
+}
+
+/* Optional: Add a border to separate player sections */
+.player {
+   
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+
+    color:#5C4033 ;
+    padding: 20px; /* Optional styling for the footer. */
+    /* Optional styling for the footer. */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
